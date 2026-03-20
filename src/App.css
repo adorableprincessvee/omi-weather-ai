@@ -40,7 +40,7 @@
 /* HOW IT WORKS SECTION */
 .how-works {
   background: linear-gradient(135deg, #0f0f23 0%, #1e3a8a 100%);
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .steps-container {
@@ -100,6 +100,7 @@
 .about {
   background: linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 50%, #0f0f23 100%);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .about-content {
@@ -225,6 +226,7 @@
 .features {
   background: linear-gradient(135deg, #0f0f23 0%, #1e3a8a 50%, #1e1b4b 100%);
   position: relative;
+  padding-bottom: 100px;
 }
 
 /* .features svg {
