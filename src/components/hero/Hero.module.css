@@ -77,6 +77,11 @@
   align-items: center;
 }
 
+.navLinks a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .navLinks li {
   color: white;
   font-weight: 500; 
@@ -211,7 +216,7 @@
 /* LEFT TEXT */
 .text {
   flex: 1;
-  max-width: 800px;
+  max-width: 1000px;
 
 }
 
@@ -231,7 +236,7 @@
 }
 
 .text h1 {
-  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-size: clamp(1.2rem, 6vw, 3rem);
   background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 50%, #bfdbfe 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -3,7 +3,7 @@ import robot from "../../assets/logo.png";
 import logo from "../../assets/log.png";
 import styles from "./Hero.module.css";
 
-const Hero = () => {
+const Hero = ({ scrollToSection }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -20,9 +20,9 @@ const Hero = () => {
         </div>
 
         <ul className={`${styles.navLinks} ${isMenuOpen ? styles.mobileOpen : ''}`}>
-          <li>Features</li>
-          <li>How It Works</li>
-          <li>About</li>
+<li><a href="#features" onClick={(e) => { e.preventDefault(); if (scrollToSection) scrollToSection('features'); }}>Features</a></li>
+          <li><a href="#how-it-works" onClick={(e) => { e.preventDefault(); if (scrollToSection) scrollToSection('how-it-works'); }}>How It Works</a></li>
+          <li><a href="#about" onClick={(e) => { e.preventDefault(); if (scrollToSection) scrollToSection('about'); }}>About</a></li>
         </ul>
 
         <div className={styles.navActions}>
