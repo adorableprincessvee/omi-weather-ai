@@ -1,13 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>omi-ai</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>OMI AI — Your Conversational Weather Companion</title>
+<meta name="description" content="OMI AI is a friendly conversational AI that explains weather, detects your location, and guides you through your day." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Drifting clouds -->
+  <div class="ambient">
+    <svg class="cloud cloud-1" viewBox="0 0 64 64" fill="currentColor"><path d="M20 44a12 12 0 010-24 14 14 0 0126-4 10 10 0 014 19H20z"/></svg>
+    <svg class="cloud cloud-2" viewBox="0 0 64 64" fill="currentColor"><path d="M20 44a12 12 0 010-24 14 14 0 0126-4 10 10 0 014 19H20z"/></svg>
+  </div>
+
+  <!-- Nav -->
+  <header class="nav">
+    <div class="brand">
+      <div class="brand-mark">✦</div>
+      <span>OMI AI</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#how">How it works</a>
+      <a href="#vision">Vision</a>
+    </nav>
+    <button class="btn btn-ghost-pill">Sign in</button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy fade-up">
+        <div class="pill"><span class="dot"></span> Meet your new weather friend</div>
+        <h1>
+          <span class="text-gradient">Weather that</span><br />
+          <em class="accent">talks back.</em>
+        </h1>
+        <p class="lede">
+          OMI AI is a conversational weather assistant with a personality.
+          It detects your location, predicts the rain, and tells you what to do —
+          like a friend who happens to know the sky.
+        </p>
+        <div class="cta-row">
+          <button class="btn btn-primary">Get Started ✦</button>
+          <button class="btn btn-ghost"><i class="fas fa-microphone"></i> Say "Hi Omi"</button>
+        </div>
+        <div class="stats">
+          <div><strong>Real-time</strong><span>location tracking</span></div>
+          <div class="divider"></div>
+          <div><strong>Conversational</strong><span>AI guidance</span></div>
+          <div class="divider"></div>
+          <div><strong>Always</strong><span>with you</span></div>
+        </div>
+      </div>
+
+      <div class="hero-mascot fade-in">
+        <div class="glow"></div>
+        <img src="assets/omi-mascot.png" alt="OMI AI mascot — a friendly blue fluffy assistant waving hello" class="mascot" />
+        <div class="bubble">
+          <div class="bubble-name">OMI</div>
+          <div>Hi user <i class="fas fa-hand-wave"></i> Light rain in Surulere — grab an umbrella <i class="fas fa-umbrella"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="section-head">
+      <p class="eyebrow">Why OMI</p>
+      <h2>Most weather apps show numbers.<br /><em class="muted">OMI shows up.</em></h2>
+    </div>
+    <div class="features-grid">
+      <article class="feature-card">
+        <div class="icon-tile"><i class="fas fa-comment"></i></div>
+        <h3>Talks like a human</h3>
+        <p>OMI translates raw weather data into friendly, conversational guidance.</p>
+      </article>
+      <article class="feature-card">
+        <div class="icon-tile"><i class="fas fa-location-dot"></i></div>
+        <h3>Knows where you are</h3>
+        <p>Automatic location detection — move from Lagos Island to Surulere, OMI keeps up.</p>
+      </article>
+      <article class="feature-card">
+        <div class="icon-tile"><i class="fas fa-cloud-rain"></i></div>
+        <h3>Smart rain alerts</h3>
+        <p>"Rain in 10 minutes — grab an umbrella." Real-time, route-aware warnings.</p>
+      </article>
+      <article class="feature-card">
+        <div class="icon-tile"><i class="fas fa-sparkle"></i></div>
+        <h3>An assistant, not an app</h3>
+        <p>Say "Hi Omi" and a friendly avatar pops up to help — anytime, anywhere.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="section">
+    <div class="how-card">
+      <div class="how-grid">
+        <div>
+          <p class="eyebrow">A real conversation</p>
+          <h2>Just talk. OMI listens.</h2>
+          <p class="muted-text">
+            No menus. No forms. Tell OMI where you're going — it checks the sky for you,
+            warns you about rain on your route, and gives you something useful to do about it.
+          </p>
+        </div>
+        <div class="chat">
+          <div class="chat-bubble you">I'm going to Ibadan in 10 minutes</div>
+          <div class="chat-bubble omi"><span class="bubble-name">OMI</span>Alright user, there's light rain along your route. You might want to carry an umbrella <i class="fas fa-umbrella"></i></div>
+          <div class="chat-bubble you">Will it clear up later?</div>
+          <div class="chat-bubble omi"><span class="bubble-name">OMI</span>Yes — sun's out by 4pm in Ibadan. Smooth ride after that <i class="fas fa-sun-cloud"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="vision" class="section cta">
+    <h2>
+      <span class="text-gradient">Don't read the weather.</span><br />
+      <em class="accent">Have a chat about it.</em>
+    </h2>
+    <p class="muted-text center">OMI AI is your always-on environmental companion. Friendly. Smart. Always here.</p>
+    <button class="btn btn-primary btn-lg">Get Started ✦</button>
+  </section>
+
+  <footer class="footer">
+    © <span id="year"></span> OMI AI — Built with care for curious skies.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
+
