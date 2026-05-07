@@ -1,0 +1,6 @@
+from omi_backend.src import create_app
+
+app = create_app
+
+if __name__=="main":
+    app.run(debug=True, port=5000)
