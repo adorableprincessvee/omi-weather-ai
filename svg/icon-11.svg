@@ -1,0 +1,17 @@
+<svg style="position:absolute;inset:0;width:100%;height:100%;z-index:1" viewBox="0 0 800 440" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <rect width="800" height="440" fill="#c8dcf8" opacity=".0"/>
+        <!-- Continents (subtle overlay so they show when img loads too) -->
+        <path d="M80 80 Q130 56 182 63 L208 90 L228 114 L216 164 L186 207 L140 224 L96 204 L66 162 L60 120 Z" fill="#7aabde" opacity=".35"/>
+        <path d="M140 240 Q170 226 194 234 L216 264 L225 326 L203 384 L172 404 L140 384 L118 344 L116 282 Z" fill="#7aabde" opacity=".35"/>
+        <path d="M334 58 Q380 50 416 58 L436 84 L426 126 L392 144 L348 134 L326 104 Z" fill="#7aabde" opacity=".35"/>
+        <path d="M334 150 Q396 136 448 174 L458 254 L426 344 L382 366 L336 344 L306 274 L306 190 Z" fill="#7aabde" opacity=".35"/>
+        <path d="M418 48 Q522 34 628 44 L686 84 L708 154 L666 206 L582 226 L502 216 L442 184 L416 134 Z" fill="#7aabde" opacity=".35"/>
+        <path d="M576 258 Q640 244 690 255 L726 294 L715 356 L658 376 L596 354 L566 314 Z" fill="#7aabde" opacity=".35"/>
+        <!-- Pin on Africa (Lagos area) -->
+        <path d="M382 220 C382 220 394 234 394 246 C394 252 388.6 256 382 256 C375.4 256 370 252 370 246 C370 234 382 220 382 220Z" fill="#2563eb"/>
+        <circle cx="382" cy="246" r="4" fill="white"/>
+        <!-- Dotted travel arc -->
+        <path d="M156 198 Q270 165 372 234" stroke="#2563eb" stroke-width="2.5" stroke-dasharray="7,5" fill="none" opacity=".6"/>
+        <!-- Small dot at start of arc -->
+        <circle cx="156" cy="198" r="4" fill="#2563eb" opacity=".6"/>
+      </svg>

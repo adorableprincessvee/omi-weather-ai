@@ -1,0 +1,32 @@
+<svg width="88" height="108" viewBox="0 0 88 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- body -->
+          <rect x="20" y="56" width="48" height="38" rx="15" fill="#3b82f6"/>
+          <!-- head -->
+          <circle cx="44" cy="40" r="23" fill="#fcd5b0"/>
+          <!-- hair -->
+          <path d="M21 34 Q23 15 44 13 Q65 15 67 34 Q60 20 44 20 Q28 20 21 34Z" fill="#6b3a1f"/>
+          <!-- headphone band -->
+          <path d="M22 37 Q22 15 44 15 Q66 15 66 37" stroke="#1d4ed8" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+          <!-- left cup -->
+          <rect x="15" y="32" width="13" height="17" rx="6.5" fill="#2563eb"/>
+          <rect x="17" y="35" width="9" height="11" rx="4.5" fill="#1d4ed8"/>
+          <!-- right cup -->
+          <rect x="60" y="32" width="13" height="17" rx="6.5" fill="#2563eb"/>
+          <rect x="62" y="35" width="9" height="11" rx="4.5" fill="#1d4ed8"/>
+          <!-- eyes -->
+          <circle cx="36" cy="41" r="3.8" fill="#3d1e00"/>
+          <circle cx="52" cy="41" r="3.8" fill="#3d1e00"/>
+          <!-- eye shine -->
+          <circle cx="37.5" cy="39.5" r="1.2" fill="white"/>
+          <circle cx="53.5" cy="39.5" r="1.2" fill="white"/>
+          <!-- smile -->
+          <path d="M37 51 Q44 57 51 51" stroke="#3d1e00" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <!-- blush -->
+          <ellipse cx="29" cy="47" rx="5.5" ry="3" fill="#f9a8d4" opacity=".45"/>
+          <ellipse cx="59" cy="47" rx="5.5" ry="3" fill="#f9a8d4" opacity=".45"/>
+          <!-- collar / shirt detail -->
+          <path d="M33 56 L44 65 L55 56" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- arms -->
+          <rect x="1" y="58" width="21" height="11" rx="5.5" fill="#3b82f6" transform="rotate(-22 1 58)"/>
+          <rect x="66" y="58" width="21" height="11" rx="5.5" fill="#3b82f6" transform="rotate(22 66 58)"/>
+        </svg>
